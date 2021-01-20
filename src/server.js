@@ -27,4 +27,4 @@ server
     .get("/give-classes", pageGiveClasses)
     .post("/save-classes", saveClasses)
     // Porta do servidor
-    .listen(5500)
+    .listen(process.env.PORT)
